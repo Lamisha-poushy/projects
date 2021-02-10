@@ -1,0 +1,164 @@
+h2{
+ text-align: center;
+  text-decoration-color: green; 
+  background-color:  rgb(144, 226, 49);
+
+}
+
+body{
+ margin-top: 10px;
+ background-color: #bde391;
+}
+/*---------menu----*/
+#menu .nav-link{
+  color: rgb(144, 226, 49);
+}
+
+ /*-----------form--------*/
+ #form .container{
+  background-color: lightgrey;
+ }
+ /*-----------form end--------*/
+/*-------------slider----------*/
+#slider h3{
+  background-color: rgb(144, 226, 49);
+  text-decoration-style: center;
+}
+#skills h3{
+  background-color: rgb(144, 226, 49);
+}
+#accessories{
+  background-color: rgb(144, 226, 49);
+}
+
+/*---------isotope gallery------->
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+#portfolio h1{
+  background-color:rgb(144, 226, 49); 
+}
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: lightgrey;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4caf50;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #4caf50;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.element-item img{
+  height: 100%;
+  width: 100%;
+}
+
+/*
+.element-item .sylhet {
+  position: absolute;
+
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+ /*----isotope gallery end---*/
+
+ /*--------------footer---------------*/
+#footer .footers{
+  background-color: grey;
+ color: white;
+  height: 205px;
+ }
+#footer .footer-bottom{
+  background-color: black;
+  text-decoration-color: white;
+}
+#about_us h2 {
+ background-color:  #d4d7dd;
+
+}
+#about_us p,h6 {
+
+text-align: justify;
+}
+#hill h4{
+  text-align: center;
+}
